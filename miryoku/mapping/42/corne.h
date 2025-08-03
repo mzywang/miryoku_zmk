@@ -1,6 +1,8 @@
 // Copyright 2022 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+#warning "Using modified Corne mapping with K34/K37 in pinky positions"
+
 #if !defined (MIRYOKU_LAYOUTMAPPING_CORNE)
 
 #define XXX &none
@@ -14,7 +16,7 @@
 XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
 XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
 K34  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  K37 \
-               K32  K33  XXX       XXX  K36  XXX
+               K32  K33  XXX       K35  K36  XXX
 
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 2 3
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTINNERINDEX 3 4
